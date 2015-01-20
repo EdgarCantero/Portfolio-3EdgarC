@@ -1,0 +1,23 @@
+div {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #269abc;
+    padding: 30px;
+}
+
+.container{
+    border-color: #eea236;
+}
+
+.row{
+    border-color: threedhighlight;
+}
+
+
+
+p {
+    color: white;
+}
+img{
+    
+}

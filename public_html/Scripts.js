@@ -5,8 +5,9 @@
  */
 
 $("document") .ready (function(){
+    // This Allows me to input 
     $(".class").css("color", "yellow").css("font-style","italic").css("background-color", "gray") ;
-    $('p:last').css("color", "blue").css("font-style","");
+    $('p:last').css("color", "").css("font-style","");
     
     $('p:gt(4)').css('border-style', 'solid');
     $("h1").bind('mouseover',mouseOverMe).bind('mouseout',mouseOutMe);
@@ -17,14 +18,13 @@ $("document") .ready (function(){
     
      $('#show').css('visibility','hidden');
      
-     $('#superHumans').accordion({header: "h4"});
+     $('#accordiom').accordion({header: "h4"});
      
-     $('h3').css('background','cyan');
+     $('h3').css('background','orange');
      
      $('body').css('text-align', "center");
     
     
-    //$('#replaceWHtml').bind('click', replaceWHtml);
     
     $('#replaceWText').bind('click', replaceWText);
     
@@ -33,18 +33,7 @@ $("document") .ready (function(){
     $('#randPara').bind('click', addAPara);
     
     $('#removeAPara').bind('click', removeAPara);
-    
-    //$('#lastIsFirst').bind('click',lastIsFirst);
-    
-   // $('#addBefore').bind('click',addBefore);
-    
-    //$('#addAfter').bind('click',addAfter);
 
-    
-    //$(".changeToHtml").bind('click', changeToHtml);
-    
-    //$(".changeToText").bind('click', changeToText);
-    
 });
 
 function hideThePage(){
@@ -62,11 +51,11 @@ function showThePage(){
 }
 
 function mouseOverMe(){
-    $("h1").html("HI");
+    $("h1").html("Hello my name is Edgar Cantero");
 }
 
 function mouseOutMe(){
-    $("h1").html("TOLD YOU DON'T TOUCH");
+    $("h1").html("My name is Edgar Cantero");
 }
 
 
