@@ -6,8 +6,8 @@
 
 $("document") .ready (function(){
     // This Allows me to input 
-    $(".class").css("color", "yellow").css("font-style","italic").css("background-color", "gray") ;
-    $('p:last').css("color", "").css("font-style","");
+    $(".class").css("color", "black").css("font-style","italic").css("background-color", "gray") ;
+    $('p:last').css("color", "black").css("font-style","");
     
     $('p:gt(4)').css('border-style', 'solid');
     $("h1").bind('mouseover',mouseOverMe).bind('mouseout',mouseOutMe);
@@ -18,9 +18,9 @@ $("document") .ready (function(){
     
      $('#show').css('visibility','hidden');
      
-     $('#accordiom').accordion({header: "h4"});
+     $('#accordion').accordion({header: "h4"});
      
-     $('h3').css('background','orange');
+     $('h3').css('background','cyan');
      
      $('body').css('text-align', "center");
     
@@ -55,7 +55,7 @@ function mouseOverMe(){
 }
 
 function mouseOutMe(){
-    $("h1").html("My name is Edgar Cantero");
+    $("h1").html("And this ");
 }
 
 
