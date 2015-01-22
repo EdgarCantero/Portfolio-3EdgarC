@@ -55,12 +55,12 @@ function mouseOverMe(){
 }
 
 function mouseOutMe(){
-    $("h1").html("And this ");
+    $("h1").html("And this is my portfolio 3");
 }
 
 
 function changeToText(){
-    $(".hi").text("<h6>Now I'm an h6</h6>");
+    $(".hi").text("<h6>Now I'");
 }
 
 //function changeToHtml(){
